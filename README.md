@@ -5,7 +5,7 @@ This project is aimed at providing a platform to delveop and test Fusion javascr
 Some developers may find it more comfortable to work in a more robust IDE (Websotrm, VS, Atom,...) 
 than the default code editor provided by the Fusion Admin UI.
 
-Jest is the driving force as a JS testing framework. It was chosen because of a passing interest and exploration of 
+Jest (https://jestjs.io/) is the driving force as a JS testing framework. It was chosen because of a passing interest and exploration of 
 ReactJS for unrelated UI work. Jest seems robust, popular, and flexible enough to handle the pipeline development and testing needs here.
 
 If the developer (me) know NodeJS better, that would likely have been a better starting point. As it is, 
