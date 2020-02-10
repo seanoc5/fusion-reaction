@@ -28,6 +28,9 @@ Currently work and testing is done in Webstorm, so there may need to be some ext
 `Request.js` is a mock-object to provide basic mocked functionality for a query pipeline.
 `PipelineDocument.js` is the mock object for index pipeline work. These are just initial starting points.
 
+`App.test.js` fails at the moment. It is a default/template reach component test, and I changed the "app" content 
+which broke the test. I've left it broken out of laziness, but also to show what a broken test displays (FYI).
+
 ## TODO
 
 - Flesh out more pipeline ojbects, including mock response, context,... object.
