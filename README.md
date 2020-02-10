@@ -13,6 +13,20 @@ just feel free to ignore the ReactJS parts, and focus on `npm test`.
 
 Currently work and testing is done in Webstorm, so there may need to be some extra configs/changes to call tests from the CLI.
 
+## Getting started
+- Download or `git clone` the project.
+- Ensure `npm` is installed (version...?)
+- Any other dependencies? (I don't think so)
+- Run `npm init` from the `fusion-reaction` directory (it will download a third of the internet in dependencies, be patient....)
+- Run `npm test` from the `fusion-reaction` directory (try `a` for running all tests--found by regex via jest)
+- copy/paste one of the test files as a template for developing your own custom javascript stage:
+    - `./src/components/fusion/index/indexStageDevelopment.unit.test.js`
+    - `./src/components/fusion/query/queryStageDevelopment.unit.test.js`  
+- add any helpful snippets/examples or extensions of the mock objects back to the repo :-)
+
+## Notes
+`Request.js` is a mock-object to provide basic mocked functionality for a query pipeline.
+`PipelineDocument.js` is the mock object for index pipeline work. These are just initial starting points.
 
 ## TODO
 
