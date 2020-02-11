@@ -31,8 +31,20 @@ Currently work and testing is done in Webstorm, so there may need to be some ext
 `App.test.js` fails at the moment. It is a default/template reach component test, and I changed the "app" content 
 which broke the test. I've left it broken out of laziness, but also to show what a broken test displays (FYI).
 
+If you use `jest`'s default testing approach, it will watch for changes in test files, and automatically run test files 
+(I am still learning about this).
+
+I use webstorm (trial) for builtin react/jest code completion, and javascript debugging.
+
+There is currently nothing useful `React`-wise, but if you are curious, you could do something like:
+`npm start` or 
+`yarn start`
+
 ## TODO
 
+- Add setup/automation to "push" changes to a managed javascript stage/blob in fusion (thanks Erik)
+  - this could avoid copy-paste of 'finished' javascript from IDE into Admin-UI
+  - might also help promote more automated testing against a live fusion node (TBD) 
 - Flesh out more pipeline ojbects, including mock response, context,... object.
 - implement more of the mock methods in the current mock opbject (Response, PipelineDocument...)
 - look at possibility of leveraging nashorn or graalvm to allow JS to access Java classes

@@ -13,7 +13,7 @@ function App() {
                 <ul>Index</ul>
                 <ul>Query</ul>
             </div>
-
+<div><a href="#test">learn reac</a>t</div>
         </div>
     );
 }
